@@ -33,6 +33,16 @@ int main(int argc, char* argv[])
 			break;
 		}
 
+		for (size_t r = 0; r < frame.rows; r++)
+		{
+			for (size_t c = 0; c < frame.cols; c++)
+			{
+				frame.at<cv::Vec3b>(r, c)[0] = abs(255 - frame.at<cv::Vec3b>(r, c)[0]);
+				frame.at<cv::Vec3b>(r, c)[1] = abs(255 - frame.at<cv::Vec3b>(r, c)[1]);
+				frame.at<cv::Vec3b>(r, c)[2] = abs(255 - frame.at<cv::Vec3b>(r, c)[2]);
+
+			}
+		}
 		imshow("MyVideo", frame); //show the frame in "MyVideo" window
 
 		if (waitKey(30) == 27) //wait for ‘esc’ key press for 30ms. If ‘esc’ key is pressed, break loop
