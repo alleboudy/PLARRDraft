@@ -22,6 +22,7 @@
     <ProjectGuid>{DF7075EE-723C-41F6-B968-2A4CE69054FD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>testingopencv</RootNamespace>
+    <ProjectName>trackingLive</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

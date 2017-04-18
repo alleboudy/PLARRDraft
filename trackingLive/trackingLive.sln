@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testingopencv", "testingopencv\testingopencv.vcxproj", "{DF7075EE-723C-41F6-B968-2A4CE69054FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trackingLive", "trackingLive\trackingLive.vcxproj", "{DF7075EE-723C-41F6-B968-2A4CE69054FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
